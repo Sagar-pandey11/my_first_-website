@@ -1,0 +1,187 @@
+*{
+    /* border: 1px solid red;   */
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background: linear-gradient(to top left, blanchedalmond, red);
+    
+
+}
+
+.logo-img{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 2px 2px 0px;
+    text-align: center;
+    float: right;
+    background: white;
+    width: 71px;
+}
+
+ul{
+    list-style: none;
+    background-color: black;
+    /* color: white; */
+    padding:25px;
+
+}
+
+li{
+    display: inline;
+    margin: 15px;
+}
+
+li:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+
+#link_1{
+    color: aqua;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.start{
+    padding:10px;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%,-50%); 
+    color: aqua;
+}
+#first {
+    padding: 10px;
+    font-size: x-large;
+}
+
+#button {
+    font-weight: bold;
+    background-color: yellow;
+    padding: 15px 32px;
+    /* border: none; */
+    font-size: medium;
+
+}
+.service{
+    text-align: center;
+    padding: 20px;
+    /* background-color: lightpink; */
+    overflow:hidden;
+}
+
+.content{
+    padding: 20px;
+    
+}
+
+#menus{
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#vid{
+    padding: 20px ;
+    width: 90%;
+    height: 600px;
+    background: linear-gradient(to top left, blanchedalmond, rgba(255, 0, 0, 0.47));
+
+}
+#service-container .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 30px;
+    right: 900px;
+    min-width: 300px;
+    max-width: 300px;
+    
+}
+
+#service-container .box2 {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 900px;
+    right: 20px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+#service-container .box3{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 460px;
+    right: 460px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+
+
+.spacer{
+    height: 85vh;
+
+}
+
+#notify-section{
+    background: linear-gradient(to top left, blanchedalmond, rgba(255, 0, 0, 0.47));
+    text-align: center;
+    
+}
+
+#notify{
+    font-size: xx-large;
+    padding: 5px;
+}
+.message{
+    padding: 40px;
+
+}
+
+#email{
+    padding: 15px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: #ffffff33;
+    
+}
+
+#subscribe{
+    padding: 10px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.697);
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.center2{
+    color: greenyellow;
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
